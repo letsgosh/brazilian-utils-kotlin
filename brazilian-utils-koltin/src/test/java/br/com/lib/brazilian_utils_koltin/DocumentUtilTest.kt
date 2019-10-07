@@ -9,7 +9,7 @@ class DocumentUtilTest {
 
     @Test
     fun `verify is CPF is valid`() {
-       assertTrue { DocumentUtil.isValidCpf("02819424040") }
+       assertTrue { DocumentUtil.isValidCpf("028.194.240-40") }
        assertTrue { DocumentUtil.isValidCpf("75187482823") }
        assertTrue { DocumentUtil.isValidCpf("66604730506") }
        assertTrue { DocumentUtil.isValidCpf("29306435363") }

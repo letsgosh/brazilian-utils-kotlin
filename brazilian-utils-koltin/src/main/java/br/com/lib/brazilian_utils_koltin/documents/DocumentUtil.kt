@@ -1,5 +1,7 @@
 package br.com.lib.brazilian_utils_koltin.documents
 
+import br.com.lib.brazilian_utils_koltin.extensions.removeCharacters
+
 object DocumentUtil {
 
     // CPF
@@ -21,7 +23,8 @@ object DocumentUtil {
         return if (sum > 9) 0 else sum
     }
 
-    fun isValidCpf(cpf: String?): Boolean {
+    fun isValidCpf(value: String?): Boolean {
+        val cpf = value?.removeCharacters()
         if (cpf == null || cpf.length != 11 || cpf.matches((cpf[0] + "{11}").toRegex())) return false
 
         val digit1 = calculate(cpf.substring(0, 9), weightSsn)
@@ -29,7 +32,8 @@ object DocumentUtil {
         return cpf == cpf.substring(0, 9) + digit1.toString() + digit2.toString()
     }
 
-    fun isValidCNPJ(cnpj: String?): Boolean {
+    fun isValidCNPJ(value: String?): Boolean {
+        val cnpj = value?.removeCharacters()
         if (cnpj == null || cnpj.length != 14 || cnpj.matches((cnpj[0] + "{14}").toRegex())) return false
 
         val digit1 = calculate(cnpj.substring(0, 12), weightTin)
