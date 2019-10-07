@@ -15,7 +15,6 @@ class PhoneUtilTest {
         assertTrue { PhoneUtil.isValidPhone("21 98888-8888") }
         assertTrue { PhoneUtil.isValidPhone("5511988888888") }
         assertTrue { PhoneUtil.isValidPhone("551198888-8888") }
-        assertTrue { PhoneUtil.isValidPhone("v") }
         assertTrue { PhoneUtil.isValidPhone("3333-3333") }
         assertTrue { PhoneUtil.isValidPhone("55 51 33333333") }
     }
