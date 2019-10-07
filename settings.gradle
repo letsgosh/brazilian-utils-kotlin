@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':brazilian-utils-koltin'
 rootProject.name='brazilian-utils'
