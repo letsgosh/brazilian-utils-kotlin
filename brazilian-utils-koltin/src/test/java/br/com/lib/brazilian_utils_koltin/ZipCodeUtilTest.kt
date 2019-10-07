@@ -17,9 +17,9 @@ class ZipCodeUtilTest {
 
     @Test
     fun `verify is not ZipCode is valid`() {
-        assertFalse { DocumentUtil.isValidCpf("91060530") }
-        assertFalse { DocumentUtil.isValidCpf("69900520") }
-        assertFalse { DocumentUtil.isValidCpf("69009700") }
-        assertFalse { DocumentUtil.isValidCpf("91060530") }
+        assertFalse { ZipCodeUtil.isValidZipCode("91060530") }
+        assertFalse { ZipCodeUtil.isValidZipCode("69900520") }
+        assertFalse { ZipCodeUtil.isValidZipCode("69009700") }
+        assertFalse { ZipCodeUtil.isValidZipCode("91060530") }
     }
 }
