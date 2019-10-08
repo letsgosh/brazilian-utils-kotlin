@@ -41,4 +41,7 @@ object DocumentUtil {
         return cnpj == cnpj.substring(0, 12) + digit1.toString() + digit2.toString()
     }
 
+    fun isValidCNH(value: String?): Boolean {
+        return false
+    }
 }
