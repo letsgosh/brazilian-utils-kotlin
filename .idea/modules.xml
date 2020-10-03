@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/brazilian-utils-koltin/br.com.lib.brazilian_utils_koltin-brazilian-utils-koltin.iml" filepath="$PROJECT_DIR$/.idea/modules/brazilian-utils-koltin/br.com.lib.brazilian_utils_koltin-brazilian-utils-koltin.iml" group="brazilian-utils/brazilian-utils-koltin" />
       <module fileurl="file://$PROJECT_DIR$/brazilian-utils.iml" filepath="$PROJECT_DIR$/brazilian-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/brazilian-utils-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/brazilian-utils-app.iml" group="brazilian-utils/app" />
       <module fileurl="file://$PROJECT_DIR$/brazilian-utils-koltin/brazilian-utils-koltin.iml" filepath="$PROJECT_DIR$/brazilian-utils-koltin/brazilian-utils-koltin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/brazilian-utils-kotlin-brazilian-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/brazilian-utils-kotlin-brazilian-utils.iml" group="brazilian-utils" />
     </modules>
   </component>
 </project>
