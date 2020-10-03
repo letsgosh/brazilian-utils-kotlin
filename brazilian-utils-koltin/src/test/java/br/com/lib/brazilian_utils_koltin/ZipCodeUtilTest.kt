@@ -1,6 +1,6 @@
 package br.com.lib.brazilian_utils_koltin
 
-import br.com.lib.brazilian_utils_koltin.documents.DocumentUtil
+import br.com.lib.brazilian_utils_koltin.zipcode.ZipCodeUtil
 import org.junit.Test
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
