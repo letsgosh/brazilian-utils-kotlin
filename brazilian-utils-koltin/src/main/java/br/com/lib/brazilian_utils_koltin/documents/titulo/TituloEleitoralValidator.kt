@@ -1,5 +1,6 @@
-package br.com.lib.brazilian_utils_koltin.documents
+package br.com.lib.brazilian_utils_koltin.documents.titulo
 
+import br.com.lib.brazilian_utils_koltin.commons.DigitoPara
 import java.util.regex.Pattern
 
 object TituloEleitoralValidator {

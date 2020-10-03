@@ -1,4 +1,4 @@
-package br.com.lib.brazilian_utils_koltin
+package br.com.lib.brazilian_utils_koltin.zipcode
 
 object ZipCodeUtil {
 

@@ -1,0 +1,32 @@
+package br.com.lib.brazilian_utils_koltin.commons
+
+
+enum class States(val code: Int, val area: Array<Int>, val length: Array<Int>, val stateName : String) {
+    AC(2, arrayOf(68), arrayOf(13), "Acre"),
+    AL(4, arrayOf(82), arrayOf(9), "Alagoas"),
+    AP(2, arrayOf(96), arrayOf(9), "Amapá"),
+    AM(2, arrayOf(92, 97), arrayOf(9), "Amazonas"),
+    BA(5, arrayOf(71, 73, 74, 75, 77), arrayOf(8, 9),"Bahia"),
+    CE(3, arrayOf(85, 88), arrayOf(9), "Ceará"),
+    DF(1, arrayOf(61), arrayOf(13),"Distrito Federal"),
+    ES(7, arrayOf(27, 28), arrayOf(9), "Espírito Santo"),
+    GO(1, arrayOf(62, 64), arrayOf(9), "Goiás"),
+    MA(3, arrayOf(98, 99), arrayOf(9), "Maranhão"),
+    MG(6, arrayOf(31, 32, 33, 34, 35, 37, 38), arrayOf(13), "Minas Gerais"),
+    MT(1, arrayOf(65, 66), arrayOf(11), "Mato Grosso"),
+    MS(1, arrayOf(67), arrayOf(9), "Mato Grosso do Sul"),
+    PA(2, arrayOf(91, 93, 94), arrayOf(9), "Pará"),
+    PB(4, arrayOf(83), arrayOf(9), "Paraíba"),
+    PE(4, arrayOf(81, 87), arrayOf(9), "Pernambuco"),
+    PI(3, arrayOf(86, 89), arrayOf(9), "Piauí"),
+    PR(9, arrayOf(41, 42, 43, 44, 45, 46), arrayOf(10), "Paraná"),
+    RJ(7, arrayOf(21, 22, 24), arrayOf(8), "Rio de Janeiro"),
+    RN(4, arrayOf(84), arrayOf(9, 10), "Rio Grande do Norte"),
+    RO(2, arrayOf(69), arrayOf(14), "Rondônia"),
+    RS(0, arrayOf(51, 53, 54, 55), arrayOf(10), "Rio Grande do Sul"),
+    RR(2, arrayOf(95), arrayOf(9), "Roraima"),
+    SC(9, arrayOf(47, 48, 49), arrayOf(9), "Santa Catarina"),
+    SE(5, arrayOf(79), arrayOf(9), "Sergipe"),
+    SP(8, arrayOf(11, 12, 13, 14, 15, 16, 17, 18, 19), arrayOf(12), "São Paulo"),
+    TO(1, arrayOf(63), arrayOf(9, 11), "Tocantins"),
+}

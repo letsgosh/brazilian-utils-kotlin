@@ -1,4 +1,4 @@
-package br.com.lib.brazilian_utils_koltin.documents
+package br.com.lib.brazilian_utils_koltin.commons
 
 import java.util.*
 import java.util.regex.Matcher

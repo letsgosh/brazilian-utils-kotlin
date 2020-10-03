@@ -1,6 +1,6 @@
 package br.com.lib.brazilian_utils_koltin.documents
 
-import br.com.lib.brazilian_utils_koltin.documents.TituloEleitoralValidator.getInvalidValues
+import br.com.lib.brazilian_utils_koltin.documents.titulo.TituloEleitoralValidator.getInvalidValues
 
 object DocumentJobUtil {
 

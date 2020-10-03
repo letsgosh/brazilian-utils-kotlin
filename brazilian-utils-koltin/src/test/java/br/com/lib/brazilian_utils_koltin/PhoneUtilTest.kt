@@ -1,5 +1,6 @@
 package br.com.lib.brazilian_utils_koltin
 
+import br.com.lib.brazilian_utils_koltin.phone.PhoneUtil
 import org.junit.Test
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
