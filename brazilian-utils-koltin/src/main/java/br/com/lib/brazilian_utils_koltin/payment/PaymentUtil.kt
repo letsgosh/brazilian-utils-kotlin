@@ -72,10 +72,13 @@ object PaymentUtil {
         return parseValue[CHECK_DIGIT_MOD_11_POSITION.last] == mod.toChar()
     }
 
-    private fun parseDigitableLine(digitableLine: String) =
-        DIGITABLE_LINE_TO_BOLETO_CONVERT_POSITIONS.reduce { acc, pos ->
-                digitableLine[acc.step] + digitableLine.substring(pos.first, pos.last)
-            }
+    private fun parseDigitableLine(digitableLine: String) : String {
+        var digitable = ""
+        DIGITABLE_LINE_TO_BOLETO_CONVERT_POSITIONS.map {
+            digitable += digitableLine.substring(it.first, it.last)
+        }
+        return digitable
+    }
 
     private fun validateDigitableLinePartials(digitableLine: String): Boolean {
         return PARTIALS_TO_VERIFY_MOD_10.all { partial ->
