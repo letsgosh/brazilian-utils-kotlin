@@ -4,7 +4,7 @@ Utils library for Brazilian-specific businesses.
 
 ## Contributors
 
- - Ksdrof500(https://github.com/ksdrof500)
+ - Filipe Nunes(https://github.com/ksdrof500)
 
 ## License
 
