@@ -9,7 +9,8 @@ object DocumentJobUtil {
         return getInvalidValues(value)
     }
 
-    fun isValidPIS(plPIS: String): Boolean {
+    fun isValidPIS(value: String): Boolean {
+        val pisUnformatted = value.replace("[^0-9]".toRegex(), "")
         val lsMultiplicador = StringBuffer("3298765432")
         var liTotalizador = 0
         var liResto = 0
@@ -17,7 +18,7 @@ object DocumentJobUtil {
         var liMultiplicador = 0
         var lbRetorno = true
         var liDigito = 99
-        val lsAux: StringBuffer = StringBuffer().append(plPIS)
+        val lsAux: StringBuffer = StringBuffer().append(pisUnformatted)
         val liTamanho = lsAux.length
         if (liTamanho != 11) {
             lbRetorno = false
