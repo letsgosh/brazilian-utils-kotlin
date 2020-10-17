@@ -5,7 +5,7 @@ import br.com.lib.brazilian_utils_koltin.commons.Cities
 
 object CitiesUtil {
 
-    fun getCitiesByName(name: String) =
+    fun getCityByName(name: String) =
         Cities.values().firstOrNull { it.citiesName.contains(name) }
 
     fun getCitiesByState(city: Cities) = city.citiesName
